@@ -1,0 +1,48 @@
+.header{
+color: white;
+background-color: #1F2937;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 24px;
+
+
+}
+
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.header-links{
+    font-size: 18px;
+    color:#E5E7EB
+}
+
+.under-header{
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header-left{
+
+    flex-wrap: wrap;
+}
+img{
+    width: 200px;
+  height: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
