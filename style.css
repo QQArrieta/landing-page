@@ -31,7 +31,7 @@ padding: 24px 48px 24px 48px;
 
 .text1{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #F9FAF8;
     padding: 0;
 }
@@ -39,6 +39,45 @@ padding: 24px 48px 24px 48px;
 .text2{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.banner2{
+    box-sizing: border-box;
+    background-color: white;
+    width: auto;
+    height: 360px;
+    padding: 24px 48px 24px 48px;
+}
+
+.title{
+    padding: 24px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.container{
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+}
+
+.panels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholder{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    border-color: #3882F6;
+    text-align: center;
+    margin: auto;
+    
 }
 
 button {
