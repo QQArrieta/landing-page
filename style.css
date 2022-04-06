@@ -109,12 +109,43 @@ padding: 24px 48px 24px 48px;
     font-weight: 700;
 }
 
+.banner-4 {
+    box-sizing: border-box;
+    width: auto;
+    height: 150px;
+    padding: 24px 48px 24px 48px;
+    background-color: white;
+}
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-banner{
+    display: flex;
+    flex-grow: 1;
+    color: white;
+    background-color: #3882F6;
+    max-width: 1800px;
+    max-height: 600px;
+    min-height: max-content;
+    padding: 24px;
+    justify-content: space-between;
+    border-radius: 12px;
+    margin-left: 300px;
+    margin-right: 300px;    
+}
+
+
 button {
     transition-duration: 0.4s;
+    color: white;
     font-size: 16px;
     padding: 8px 24px;
     background-color: #3882F6;
-    border-color: #3882F6;
+    border-color: white;
     border-radius: 12px;
   }
   
