@@ -138,6 +138,15 @@ padding: 24px 48px 24px 48px;
     margin-right: 300px;    
 }
 
+.footer{
+    display: flex;
+    flex-grow: 1;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 40px;
+}
 
 button {
     transition-duration: 0.4s;
