@@ -1,46 +1,80 @@
 .header{
 color: white;
-background-color: #1F2937;
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 24px;
+padding: 24px 48px 24px 48px;
 
 
 }
 
-body{
-    width: 1000px;
-    margin: auto;
-}
-
-.header-logo{
-    font-size: 24px;
-    color: #F9FAF8;
-    
-}
-
-.header-links{
-    font-size: 18px;
-    color:#E5E7EB
+.banner1{
+    box-sizing: border-box;
+    width: auto;
+    height: 360px;
+    background-color: #1F2937; 
 }
 
 .under-header{
     display: flex;
-    background-color: #1F2937;
+    padding: 24px 48px 24px 48px;
 }
-
+.under-header > *{
+    flex-basis: 100%;
+}
 .header-left{
-
-    flex-wrap: wrap;
-}
-img{
-    width: 200px;
-  height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    
 }
 
+.text1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding: 0;
+}
+
+.text2{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    transition-duration: 0.4s;
+    font-size: 16px;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 12px;
+  }
+  
+button:hover {
+    background-color: white;
+    color: blue;
+    border-color: white;
+    border-radius: 12px;
+
+  }
+
+.header-right{
+    display: flex;
+    color: white;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a, a:hover, a:active, a:visited {
+     color: white;
+     text-decoration: none;
+
+}
 ul{
     list-style-type: none;
+    
 }
 
 li{
